@@ -29,8 +29,8 @@ const YouTubeVideos = () => {
 
     // Función para hacer la solicitud a la API de YouTube
     const fetchVideos = async () => {
-        const apiKey = import.meta.env.VITE_API_KEY;
-        const channelId = import.meta.env.VITE_CHANNEL_ID;
+        const apiKey = 'AIzaSyDJ9quked6e0YhijCIL9z0dhYmPurWdx9o'
+        const channelId = 'UCvPGx8qh8AkrFZW06tESvaA';
 
         const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&order=date&maxResults=3&key=${apiKey}`;
 

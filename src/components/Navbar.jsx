@@ -89,7 +89,7 @@ export const Navbar = () => {
                       }
                       hover:text-detail`}
                   >
-                    <red.icon size={30} />
+                    <red.icon size={31} />
                   </a>
                 </li>
               ))}

@@ -76,7 +76,7 @@ const YouTubeVideos = () => {
                 YouTube
                 <FaYoutube color="red" />
             </h1>
-            <h2 className="text-light-dark text-lg mb-8">Últimos tres videos</h2>
+            <h2 className="text-light-dark text-lg mb-8 text-center md:text-start">Últimos tres videos</h2>
             <div className="flex flex-wrap gap-8 justify-center items-center">
                 {videos.map((video) => (
                     <article key={video.id.videoId} className="w-56 min:w-56 min-h-56 transition-all duration-300 hover:scale-105 hover:shadow-md">

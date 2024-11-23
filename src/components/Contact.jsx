@@ -49,7 +49,7 @@ const ContactForm = () => {
 
     return (
         <>
-            <section className="max-w-4xl mx-auto p-6 bg-dark-light rounded-xl shadow-lg flex flex-col items-center">
+            <section id='contact' className="max-w-4xl mx-auto p-6 bg-dark-light rounded-xl shadow-lg flex flex-col items-center">
                 <h1 className="text-4xl text-light mb-6 text-center">Contacto</h1>
                 <p className="text-light-dark text-center mb-4">
                     Si te gustaría contactarme, no dudes en enviarme un mensaje👇

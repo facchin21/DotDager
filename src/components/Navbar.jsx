@@ -12,12 +12,13 @@ export const Navbar = () => {
       <ul className='hidden md:flex gap-6 items-center justify-center text-lg text-light font-light'>
         {itemsData.map(item => (
           <li key={item.id} className='transition-all duration-300 hover:-translate-y-1'>
-            <span
+            <a
+              href={item.link}
               id={item.link}
               className='cursor-pointer transition-all duration-300 hover:text-detail'
             >
               {item.title}
-            </span>
+            </a>
           </li>
         ))}
       </ul>

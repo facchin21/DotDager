@@ -6,22 +6,22 @@ export const itemsData = [
   {
     id: "01",
     title: "Inicio",
-    link: "#",
+    link: "#inicio",
   },
   {
     id: "02",
     title: "Sobre Mi",
-    link: "#",
+    link: "#about",
   },
   {
     id: "03",
     title: "Mis Redes",
-    link: "#",
+    link: "#redes",
   },
   {
     id: "04",
     title: "Contacto",
-    link: "#",
+    link: "#contact",
   },
 ];
 export const itemsDataRedes = [

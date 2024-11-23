@@ -71,7 +71,7 @@ const YouTubeVideos = () => {
     if (videos.length === 0) return <p>No se encontraron videos.</p>;
 
     return (
-        <section>
+        <section id="redes">
             <h1 className="text-4xl text-light-dark py-5 flex gap-2 justify-center items-center">
                 YouTube
                 <FaYoutube color="red" />
